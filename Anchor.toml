@@ -1,0 +1,22 @@
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+seeds = true
+
+[programs.localnet]
+newanchor = "ARVufj6QYTBFor9gDwfva1gFETd5RG2umCty2P7a85BK"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "npm run test"
+
+[test]
+startup_wait = 10000
